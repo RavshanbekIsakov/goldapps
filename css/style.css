@@ -2189,7 +2189,7 @@ ul, ol {
 }
 
 img {
-  width: 900px;
+  width: 700px;
   max-width: 100%;
   display: inline-block;
 }
@@ -2716,11 +2716,14 @@ figcaption {
 .nav-link {
   color: #101010;
   padding: 0;
-  font-family: Satoshi, sans-serif;
+
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
   transition: all .5s;
+}
+.nav-link a{
+  font-family: Satoshi;
 }
 
 .nav-link:hover, .nav-link.w--current {
@@ -7242,8 +7245,8 @@ figcaption {
   }
 
   .hero-image {
-    width: 600px;
-    height: 800px;
+    width: 200px;
+    height: 700px;
   }
 
   .leads-increase {
